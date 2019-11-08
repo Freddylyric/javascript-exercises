@@ -135,7 +135,9 @@ var someVariable;
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+const object={
+    someProperty:1
+};
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
