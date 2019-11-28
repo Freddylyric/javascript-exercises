@@ -219,7 +219,7 @@ getContext = getContext.bind(differentContext);
                 // Unfortunately, it does not specify any parameters.
                 // Find a way to retrieve the first argument without specifying a parameter.
                 // ✏️ ADD CODE HERE ✏️
-
+return arguments[0];
                 ////////////////////////////////////////////////////////////////////
             }
 
