@@ -27,7 +27,7 @@ function myFunction(){}
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-const myFunction = myFunction(){}
+const myFunction = function(){}
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
