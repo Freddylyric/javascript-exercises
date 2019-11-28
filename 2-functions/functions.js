@@ -96,7 +96,9 @@ const answer = undefined;
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-const answer = undefined;
+            const answerFirstResult = undefined;
+            const answerSecondResult = context;
+            const answerThirdResult = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // First we call the function without an explicit context
