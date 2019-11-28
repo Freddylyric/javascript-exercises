@@ -274,7 +274,7 @@ return arguments.length;
                 // This means that we can't change it.
                 // Is there a way to still make 'myConst' equal true here?
                 // ✏️ ADD CODE HERE ✏️
-
+const myConst = true;
                 ////////////////////////////////////////////////////////////////////
 
                 if (myConst !== true) {
