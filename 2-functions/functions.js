@@ -683,7 +683,7 @@ function map(fn, array){
                     return function() {
                         this.doSomething();
                         this.doAnotherThing();
-                    };
+                    }.bind(this);
                 },
                 doSomething: function() {},
                 doAnotherThing: function() {}
@@ -698,6 +698,7 @@ function map(fn, array){
             object.myMethod()();
         });
     });
+  
 
     describe("Calling array methods on 'arguments'", () => {
         it("should run without errors", function() {
