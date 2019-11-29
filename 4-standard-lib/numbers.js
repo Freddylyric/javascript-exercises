@@ -35,7 +35,9 @@ function isFiniteNumber(number){
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
             // You will also need to do an additional check here.
-
+function isNotANumber(number){
+        return typeof number !== "number" || number.isNaN(number);
+}
             ////////////////////////////////////////////////////////////////////////
 
             expect(isNotANumber(0)).to.equal(false);
